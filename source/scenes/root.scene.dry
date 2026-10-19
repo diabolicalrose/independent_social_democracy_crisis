@@ -259,12 +259,41 @@ Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'cath
 Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 Q.parties_graph = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 
+//Q.parties = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'dvp', 'bb', 'dhp', 'other'];
+//Q.parties_graph = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'dvp', 'bb', 'dhp', 'other'];
+
 Q.sapd_formed = 0;
 Q.dnf_formed = 0;
 Q.dnef_formed = 0;
 Q.kvp_formed = 0;
 Q.lvp_formed = 0;
 Q.cvp_formed = 0;
+
+//09.1917
+Q.dvlp_formed = 0;
+
+//11.1918
+Q.ikd_formed = 0;
+Q.ddp_formed = 0; #fvp
+Q.bvp_formed = 0;
+
+//12.1918
+Q.dnvp_formed = 0; #merger of rightist parties
+Q.dvp_formed = 0; #NLP
+Q.kpd_formed = 0; #sparts + ikd
+
+//Zentrum by another name, just for 1919 elections
+Q.cvp_formed = 0;
+
+//04.1920
+Q.kapd_formed = 0; #anti-electoral
+
+//12.1920
+Q.vkpd_formed = 0; #kpd + left-uspd merger
+
+//9.1920
+Q.vspd_formed = 0; #mspd and right-uspd merger
+
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
