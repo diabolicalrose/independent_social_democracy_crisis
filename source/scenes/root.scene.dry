@@ -135,6 +135,16 @@ Q.dnvp_relation = 5;
 Q.nsdap_relation = 0;
 Q.lvp_relation = 0;
 
+Q.mspd_relation = 50;
+Q.z_relation = 30;
+Q.fvp_relation = 35;
+Q.nlp_relation = 15;
+Q.fkp_relation = 10;
+Q.dkp_relation = 5;
+Q.csp_relation = 0;
+Q.bb_relation = 60;
+Q.dhp_relation = 20;
+
 Q.kpd_leader = "Thälmann";
 Q.z_leader = "Marx";
 Q.z_ideology = "Right";
@@ -260,8 +270,8 @@ Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'cath
 Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 Q.parties_graph = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
 
-//Q.parties = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'dvp', 'bb', 'dhp', 'other'];
-//Q.parties_graph = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'dvp', 'bb', 'dhp', 'other'];
+//Q.parties = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'bb', 'dhp', 'other'];
+//Q.parties_graph = ['uspd','mspd', 'z', 'fvp', 'nlp', 'fkp', 'dkp', 'csp', 'bb', 'dhp', 'other'];
 
 Q.sapd_formed = 0;
 Q.dnf_formed = 0;
@@ -378,6 +388,20 @@ Q.wp_r = 2.4;
 Q.cnblp_r = 1.7;
 Q.true_other_r = 1.8;
 Q.reichstag_size = 4.93;
+Q.landtag_size = 4.5;
+
+Q.uspd_r = 4.8;
+Q.mspd_r = 22.2;
+Q.z_r = 22.7;
+Q.fvp_r = 10.3;
+Q.nlp_r = 11.4;
+Q.fkp_r = 3.5;
+Q.dkp_r = 10.3;
+Q.csp_r = 0.7;
+Q.bb_r = 0.5;
+Q.dhp_r = 1.2;
+Q.true_other_r = 12.1;
+Q.reichstag_size = 3.96; // 397 seats, but one was empty due to Georges Weill's defection
 Q.landtag_size = 4.5;
 
 // diff from prev
